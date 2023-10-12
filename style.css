@@ -1,0 +1,283 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
+    gap: 100px;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: grey;
+}
+
+li {
+    list-style-type: none;
+}
+
+#easyAPIs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.widget {
+
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: solid black 3px;
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+
+
+}
+
+#ipWidget{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: white;
+    background-color: #5408a1;
+    opacity: 0.90;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+#jokeWidget {
+    background-color: #a16e08;
+    color: white;
+    opacity: 0.90;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#wHeader {
+    font-size: larger;
+}
+
+#wWidget {
+    background-color: #086ea1;
+    color: white;
+    opacity: 0.90;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#wContent {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 5px;
+}
+
+
+#exrateOutput {
+
+    background-color: #224705;
+    opacity: 0.90;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+#exrateHeader {
+    font-size: larger;
+}
+
+#exrateList {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 5px;
+}
+
+#chat-gpt {
+
+    border: solid black 3px;
+    width: 500px;
+    height: 725px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #403e39;
+    padding: 10px;
+    position: relative;
+
+
+}
+
+#gptHeader {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#gptOutput {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    text-align: start;
+}
+
+#btn-gpt {
+border: none;
+width: 50px;
+height: 30px;
+background-color: black;
+color: white;
+font-weight: bold;
+
+}
+
+#gptInput {
+    border: none;
+    background-color: #403e39;
+    border: black solid 3px;
+    height: 20px;
+    width: 400px;
+    color: white;
+}
+
+#gptCred {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+}
+
+#btn-settings-open {
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+
+#settings {
+    width: 300px;
+    height: 150px;
+    border: 3px solid black;
+}
+
+#btn-settings-close {
+
+border: none;
+position: absolute;
+top: 0;
+right: 0;
+background-color: #fff;
+
+}
+
+#btn-settings-apply {
+
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    
+}
+
+#settings-container {
+
+    position: absolute;
+    top: 0;
+
+
+}
+
+.input-api-key {
+
+    border: 1px black solid;
+    height: 24px;
+    width: 200%;
+
+}
+
+#settings {
+    height: 25%;
+
+    font-family: sans-serif;
+}
+
+#todo-app {
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    border: black solid 3px;
+    border-radius: 20px;
+    background-color: navy;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    padding: 3%;
+}
+
+#todo-app input, #todo-app button, #todo-app select  {
+    height: 28px;
+}
+
+.todo-section {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: white double 6px;
+}
+
+.todo-item input {
+    border: none;
+}
+
+.todo-item select {
+    border: none;
+    background-color: white;
+}
+
+.todo-category {
+    padding-left: 5%;
+}
+
+.todo-item {
+
+    border: 2px solid white;
+    padding: 8px;
+    position: relative;
+    border-top: 0;
+}
+
+.todo-done {
+    position: absolute;
+    right: 5px;
+}
+
+.todo-item input[type="text"] {
+    border: none;
+    outline: none;
+}
+
+.todo-item input[type="text"]:hover, .todo-item input[type="text"]:active {
+        border: rgb(170, 156, 156) solid 1px;
+    
+}
+

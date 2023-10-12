@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min startsida</title>
+    <script defer src="script.js"></script>
+    <script defer src="settings.js"></script>
+    <script defer src="todo.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <container class="container">
+
+        <div id="top">
+            <button id="btn-settings-open" value="Settings"><i class="fa fa-gear" style="font-size:24px"></i></button>
+            <div id="container-settings"></div>
+        </div>
+        <div id="easyAPIs">
+
+            <div class="widget" id="ipWidget">
+                <div id="ipOutput"></div>
+            </div>
+
+
+            <div class="widget" id="jokeWidget">
+                <div id="jokeOutput"></div>
+            </div>
+
+            <div class="widget" id="exrateOutput">
+                <span id="exrateHeader">Currency exchange rates (EUR)</span>
+                <div id="exrateList">
+                </div>
+
+            </div>
+
+            <div class="widget" id="wWidget">
+                <div id="weatherOutput"></div>
+                <img src="" alt="Weather icon" id="wIcon">
+                <div>Powered by <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a></div>
+            </div>
+
+        </div>
+
+
+
+
+        <div id="chat-gpt">
+            <span id="gptHeader">Chat-GPT</span>
+            <br>
+            <input type="text" id="gptInput" placeholder="Do you have any questions?"><input type="button" value="Ask" id="btn-gpt">
+
+            <div id="gptOutput"></div>
+
+            <div id="gptCred">Powered by <a href="https://openai.com/" target="_blank">OpenAI ChatGPT-3-5</a></div>
+
+        </div>
+
+        <div id="todo-app">
+            <span id="todoHeader">ToDo</span>
+            <br>
+            <div class="todo-section">
+                <div id="todo-list">
+                <!--ToDo list goes here-->
+                </div>
+            </div>
+            
+            <div class="todo-section ">
+                <div id="new-todo">
+                    <label for="input-todo">Create new task</label>
+                    <input type="text" id="input-todo" placeholder="Ex. Hang the laundry">
+                    <br>
+                    <select name="todo-sel-category" id="todo-sel-category">
+                        <!--ToDo categories go here-->  
+                    </select>
+                    <input type="date" name="" id="todo-due-date">
+                    <input type="button" id="btn-todo-save" value="Save">
+                </div>
+            </div>
+            
+            
+            
+        </div>
+
+    </container>
+
+</body>
+
+</html>
